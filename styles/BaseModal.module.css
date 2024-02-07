@@ -1,0 +1,52 @@
+.closeIcon {
+    float: left;
+    padding: "0 10px";
+    font-size: '22px';
+}
+
+.modalShadow {
+    position: absolute;
+    background-color: #1e1e1ea8;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.contentModal {
+    height: 530px;
+    overflow-y: scroll;
+    box-shadow:
+        rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border-top: 1px solid lightgray;
+}
+
+.headerContent {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.modal {
+    position: absolute;
+    bottom: 0;
+    background: white;
+    height: 700px;
+    width: 100%;
+}
+
+.footerModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}

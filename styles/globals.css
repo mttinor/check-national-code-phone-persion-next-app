@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'YekanRegular';
+  src: url('./../public/fonts/YekanBakhFaNum-Regular.ttf');
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@font-face {
+  font-family: 'YekanBold';
+  src: url('./../public/fonts/YekanBakhFaNum-ExtraBold.ttf');
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+body {
+  font-family: 'YekanRegular';
+  direction: rtl;
+}
+
+.main-style {
+  padding: 10px;
+  min-height: 88vh;
+}
+
+.btn-close {
+  margin: 0 !important;
+}
+
+.error {
+  color: red;
+}
+
+.border-danger {
+  border: 1px solid red;
+  border-radius: 0;
+}
+
+.border-gray {
+  border: 1px solid lightgray;
+  border-radius: 0;
+}
+
+.btnNext {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
